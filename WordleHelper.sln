@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11109.219
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleHelper", "ConsoleApp1\WordleHelper.csproj", "{59238179-8C05-4D1A-BED6-08B9C3C1FCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleHelper.Core", "WordleHelper.Core\WordleHelper.Core.csproj", "{83B98945-7A4D-449E-8671-17671396941C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleHelper.Web", "WordleHelper.Web\WordleHelper.Web.csproj", "{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59238179-8C05-4D1A-BED6-08B9C3C1FCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59238179-8C05-4D1A-BED6-08B9C3C1FCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59238179-8C05-4D1A-BED6-08B9C3C1FCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59238179-8C05-4D1A-BED6-08B9C3C1FCD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B98945-7A4D-449E-8671-17671396941C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B98945-7A4D-449E-8671-17671396941C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B98945-7A4D-449E-8671-17671396941C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B98945-7A4D-449E-8671-17671396941C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8688E37D-88A9-41EC-B95E-B74FB3264DEB}
+	EndGlobalSection
+EndGlobal

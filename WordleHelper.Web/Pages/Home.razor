@@ -1,0 +1,52 @@
+﻿@page "/"
+
+<PageTitle>Wordle Helper</PageTitle>
+
+<WordleLineComponent @ref="WordleLineComponent1" LetterStatesChanged="OnLetterStatesChanged" />
+
+<br />
+
+<WordleLineComponent @ref="WordleLineComponent2" LetterStatesChanged="OnLetterStatesChanged" />
+
+<br />
+
+<WordleLineComponent @ref="WordleLineComponent3" LetterStatesChanged="OnLetterStatesChanged" />
+
+<br />
+
+<WordleLineComponent @ref="WordleLineComponent4" LetterStatesChanged="OnLetterStatesChanged" />
+
+<br />
+
+<WordleLineComponent @ref="WordleLineComponent5" LetterStatesChanged="OnLetterStatesChanged" />
+
+<br />
+
+<WordleLineComponent @ref="WordleLineComponent6" LetterStatesChanged="OnLetterStatesChanged" />
+
+<br />
+
+<div class="input-wrapper">
+    <input class="input-wrapper__input"
+           type="text"
+           autofocus
+           @bind-value="@WrittenText"
+           @bind-value:event="oninput"
+           @bind-value:after="OnInputChanged"
+           @onkeydown="OnInputKeyDown"
+           maxlength="5" />
+</div>
+
+<br />
+
+@if(WordleLineComponent1?.IsReadonly == true)
+{
+    <div class="prediction-wrapper">
+        @foreach (var predictionString in PredictionStrings)
+        {
+            <div class="prediction-wrapper__prediction">
+                @predictionString
+            </div>
+        }
+    </div>
+}

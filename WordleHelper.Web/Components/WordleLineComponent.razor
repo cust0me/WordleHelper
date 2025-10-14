@@ -1,0 +1,26 @@
+﻿<div class="word-box">
+    <div class="word-box__letter @(GetLetterStateClass(0))"
+         @onclick="(MouseEventArgs args) => OnClick(args, 0)">
+        <p>@Word.ToUpper()[0]</p>
+    </div>
+
+    <div class="word-box__letter @(GetLetterStateClass(1))"
+         @onclick="(MouseEventArgs args) => OnClick(args, 1)">
+        <p>@Word.ToUpper()[1]</p>
+    </div>
+
+    <div class="word-box__letter @(GetLetterStateClass(2))"
+         @onclick="(MouseEventArgs args) => OnClick(args, 2)">
+        <p>@Word.ToUpper()[2]</p>
+    </div>
+
+    <div class="word-box__letter @(GetLetterStateClass(3))"
+         @onclick="(MouseEventArgs args) => OnClick(args, 3)">
+        <p>@Word.ToUpper()[3]</p>
+    </div>
+
+    <div class="word-box__letter @(GetLetterStateClass(4))"
+         @onclick="(MouseEventArgs args) => OnClick(args, 4)">
+        <p>@Word.ToUpper()[4]</p>
+    </div>
+</div>

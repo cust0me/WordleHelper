@@ -1,0 +1,28 @@
+﻿.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper__input {
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.prediction-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prediction-wrapper__prediction {
+    font-size: 20px;
+    color: white;
+}
