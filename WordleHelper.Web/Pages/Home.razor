@@ -42,7 +42,7 @@
 @if(WordleLineComponent1?.IsReadonly == true)
 {
     <div class="prediction-wrapper">
-        @foreach (var predictionString in PredictionStrings)
+        @foreach (string predictionString in PredictionStrings)
         {
             <div class="prediction-wrapper__prediction">
                 @predictionString

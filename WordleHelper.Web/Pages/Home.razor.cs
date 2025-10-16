@@ -182,16 +182,20 @@ public partial class Home(IWordlePredictionService wordlePredictionService, IWor
             WordleLineComponent6?.Word!,
         ];
 
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < allWords.Length; i++)
         {
-            for (int j = 0; j < 4; j++)
+            for (int j = 0; j < allLetterStates[i].Length; j++)
             {
                 char letter = allWords[i][j];
                 switch (allLetterStates[i][j])
                 {
                     case LetterState.Correct:
                         known[j] = letter;
-                        mustInclude = [.. mustInclude, letter];
+                        
+                        if (mustInclude.Contains(letter) == false)
+                        {
+                            mustInclude = [.. mustInclude, letter];
+                        }
                         break;
                     case LetterState.WrongPosition:
                         if (wrongPositions[j].Contains(letter) == false)
