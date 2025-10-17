@@ -6,13 +6,18 @@
 }
 
 .input-wrapper__input {
-    width: 200px;
+    width: calc(calc(100px * 5) + calc(1rem * 5));
     height: 40px;
+    background-color: #cccccc;
+    border: 2px solid #666666;
     font-size: 24px;
     text-align: center;
-    border: 2px solid black;
     border-radius: 8px;
-    margin-right: 10px;
+    color: white;
+}
+
+.input-wrapper__input:focus-visible {
+    outline: none;
 }
 
 .prediction-wrapper {

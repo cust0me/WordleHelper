@@ -35,9 +35,8 @@
 }
 
 word-box__letter-readonly {
-
 }
 
-    .word-box__letter-readonly:hover {
-        cursor: pointer;
-    }
+.word-box__letter-readonly:hover {
+    cursor: pointer;
+}
