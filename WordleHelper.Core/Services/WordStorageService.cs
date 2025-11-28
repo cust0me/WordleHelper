@@ -2342,7 +2342,8 @@ public sealed class WordStorageService : IWordStorageService
             "tizzy",
             "kefir",
             "uvula",
-            "gofer"
+            "gofer",
+            "words"
         ];
     }
 

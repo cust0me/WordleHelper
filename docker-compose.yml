@@ -1,0 +1,9 @@
+services:
+  wordlehelper-web:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    container_name: wordlehelper_web
+    ports:
+      - "8080:80"
+    restart: unless-stopped

@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleHelper.Core", "Wordle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleHelper.Web", "WordleHelper.Web\WordleHelper.Web.csproj", "{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A50B052-0263-4692-8976-FE16C66FF6CD}"
+	ProjectSection(SolutionItems) = preProject
+		nginx\default.conf = nginx\default.conf
+		nginx\Dockerfile = nginx\Dockerfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,10 @@ Global
 		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F9FF00D-BFE5-4943-A26D-1FA92BB95A97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
